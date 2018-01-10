@@ -19,7 +19,7 @@ $ cd opencv-3.2.0
 $ mkdir build
 $ cd build
 $ cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON -D WITH_QT=ON -D WITH_OPENGL=ON ..
-### (若cmake过程中 [ippicv_linux_20151201.tgz](https://pan.baidu.com/s/1c4lOnLm) 这个文件一直无法下载(密码：ej2i)，则可手动下载，并放到‘/home/xxx/opencv-3.2.0/3rdparty/ippicv/downloads/linux-808b791a6eac9ed78d32a7666804320e’中)
+### (若cmake过程中ippicv_linux_20151201.tgz这个文件一直无法下载(下载地址见底部)，则可手动下载，并放到‘/home/xxx/opencv-3.2.0/3rdparty/ippicv/downloads/linux-808b791a6eac9ed78d32a7666804320e’中)
 ### (若在cmake过程中报错说找不到Qt×，则需要把3.2.0.zip重新解压并覆盖当前的opencv-3.2.0,然后再执行
 $ cd opencv-3.2.0
 $ mkdir build
@@ -43,3 +43,4 @@ $ python
 '3.2.0'
 >>>
 ```
+##下载 [ippicv_linux_20151201.tgz](https://pan.baidu.com/s/1c4lOnLm) (密码：ej2i)
